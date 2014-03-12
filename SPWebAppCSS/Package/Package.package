@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package dslVersion="1.0.0.0" 
+        Id="dd591cb9-df78-433e-bc0c-663ce4d21c94" 
+        solutionId="dd591cb9-df78-433e-bc0c-663ce4d21c94" 
+        xmlns="http://schemas.microsoft.com/VisualStudio/2008/SharePointTools/PackageModel" 
+        name="SPWebAppCSS"
+        sharePointProductVersion="16.0">
+  <features>
+        <featureReference itemId="40c76dcb-6268-45e3-b283-f64cae32085a" />
+  </features>
+</package>
