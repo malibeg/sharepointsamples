@@ -43,10 +43,14 @@
     <UseVSHostingProcess>false</UseVSHostingProcess>
   </PropertyGroup>
   <ItemGroup>
+    <None Include="apptasks\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{dec45546-13dc-4444-ac24-3399c35cfecf}</SharePointProjectItemId>
+    </None>
     <None Include="packages.config" />
     <None Include="Pages\SharePointProjectItem.spdata">
       <SharePointProjectItemId>{ad11c38c-776b-45e1-8814-639145825e85}</SharePointProjectItemId>
     </None>
+    <Content Include="apptasks\Elements.xml" />
     <Content Include="Pages\Elements.xml" />
     <Content Include="Pages\Default.aspx" />
   </ItemGroup>
@@ -55,6 +59,7 @@
     <None Include="Scripts\SharePointProjectItem.spdata">
       <SharePointProjectItemId>{41a2006a-fcdc-45b8-9e6f-73f7432e7ad3}</SharePointProjectItemId>
     </None>
+    <Content Include="Pages\ShowTasks.aspx" />
     <Content Include="Scripts\Elements.xml" />
     <Content Include="Scripts\App.js" />
     <Content Include="Scripts\jquery-1.9.1.intellisense.js" />

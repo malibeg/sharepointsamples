@@ -33,6 +33,7 @@
             <!-- The following content will be replaced with the user name when you run the app - see App.js -->
             initializing...
         </p>
+        <p><input type="button" id="btnTask" value="Create Task" onclick="CreateSPTask()"/></p>
     </div>
 
 </asp:Content>
