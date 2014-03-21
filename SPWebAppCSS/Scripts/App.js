@@ -64,7 +64,7 @@ function onQueryFailed(sender, args) {
 // This function is executed if the above call is successful
 // It replaces the contents of the 'message' element with the user name
 function onGetUserNameSuccess() {
-    $('#message').text('Hello ' + user.get_title() + user.get_email());
+    $('#message').append('<p>Hello ' + user.get_title() + user.get_email()+'</p>');
 }
 
 // This function is executed if the above call fails
